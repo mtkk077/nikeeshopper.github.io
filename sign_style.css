@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./assets/pexels-aman-jakhar-1124465.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ===button=== */
+
+.button_sign{
+    font-size: 30px;
+    top: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 7px;
+    backdrop-filter: blur(20px);
+    border: 1px solid hsla(0, 0%, 65%, 0.158);
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button_conteiner{
+    margin-top: 15px;
+  
+
+   
+}
+
+.button_sign:hover{
+    background-color: rgb(207, 207, 207) ;
+}
+
+/* =====sign_menu===== */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    position: relative;
+    width: 22.2rem;
+}
+
+.form-container {
+    border: 1px solid hsla(0, 0%, 65%, 0.158);
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    padding: 2rem;
+}
+
+.login-container form input {
+    display: block;
+    padding: 14.5px;
+    width: 100%;
+    margin: 2rem 0;
+    outline: none;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    
+    font-size: 15px;
+    backdrop-filter: blur(15px);
+}
+
+.login-container form input:focus {
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+    animation: wobble 0.3s ease-in;
+    
+}
+
+.login-container form button {
+    background-color: var(--primary-color);
+    color: var(--color);
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.1s ease-in-out;
+    border: none;
+}
+
+.login-container form button:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    
+}
+
+
+.illustration {
+    position: absolute;
+    top: -19%;
+    right: -2px;
+    width: 90%;
+}
+
+.register-forget {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.15);
+}
+
+.opacity {
+    opacity: 0.6;
+    
+}
+
+#submit_button{
+    background-color: brown;
+}
+
+.theme-btn-container {
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+}
+
+.theme-btn {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.theme-btn:hover {
+    width: 40px ;
+}
